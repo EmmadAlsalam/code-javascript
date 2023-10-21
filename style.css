@@ -1,0 +1,44 @@
+.container  {
+    padding: 25px;
+    padding-right: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+form {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+}  
+
+.form-content {
+    flex: 1;
+}
+
+
+input{   
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c6c6c6;
+
+}
+span{
+    padding: 10px;
+    font-size: 10px;
+    color: crimson;
+}
+
+
+.error{
+    color: crimson;
+    border:1px solid #e86262 ;
+    background-color: #e49f9f;
+}
+
+button{
+    align-self: end;
+    height: 70px;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgb(237, 228, 215);
+}
